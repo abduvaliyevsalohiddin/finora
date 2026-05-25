@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="uz" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8"/>
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description"
+          content="Finora System — CRM va ERP tizimlarini o'rnatish, biznes jarayonlarini avtomatlashtirish va raqamlashtirish bo'yicha O'zbekistondagi yetakchi konsalting kompaniyasi."/>
+    <meta name="keywords"
+          content="CRM tizim, ERP tizim, biznes avtomatlashtirish, konsalting, Toshkent, O'zbekiston, sotuv bo'limi, raqamlashtirish, Finora System"/>
+    <meta name="author" content="Finora System"/>
+    <meta name="robots" content="index, follow"/>
+    <meta property="og:title" content="Finora System | CRM & ERP Tizimlar"/>
+    <meta property="og:description"
+          content="Biznesingizni raqamli kelajakka olib chiqamiz. CRM, ERP, avtomatlashtirish va konsalting xizmatlari."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://finora.uz"/>
+    <meta property="og:locale" content="uz_UZ"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Finora System | CRM & ERP Tizimlar"/>
+    <meta name="twitter:description" content="Biznesingizni raqamli kelajakka olib chiqamiz."/>
+    <link rel="canonical" href="https://finora.uz"/>
+    <title>Finora System | CRM & ERP Tizimlar — Biznes Avtomatlashtirish</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Finora System",
+            "url": "https://finora.uz",
+            "description": "CRM va ERP tizimlarini o'rnatish, biznes jarayonlarini avtomatlashtirish va raqamlashtirish bo'yicha konsalting kompaniyasi",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Toshkent",
+                "addressCountry": "UZ"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+998-90-123-45-67",
+                "contactType": "customer service",
+                "email": "info@finora.uz"
+            },
+            "sameAs": [
+                "https://t.me/finora_system"
+            ]
+        }
+    </script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="site-header">
+    <div class="container header-inner">
+        <a href="#home" class="logo">Finora<span>.</span></a>
+        <nav>
+            <ul>
+                <li><a href="#home">Bosh sahifa</a></li>
+                <li><a href="#about">Haqida</a></li>
+                <li><a href="#services">Xizmatlar</a></li>
+                <li><a href="#process">Jarayon</a></li>
+                <li><a href="#stats">Natijalar</a></li>
+                <li><a href="#pricing">Narxlar</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <button class="theme-btn" id="themeBtn" aria-label="Mavzu"><i class="fa-solid fa-sun"></i></button>
+            <a href="#contact" class="btn-cta-sm">Bog'lanish →</a>
+            <div class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- MOBILE NAV -->
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigatsiya">
+    <a href="#home">Bosh sahifa</a>
+    <a href="#about">Haqida</a>
+    <a href="#services">Xizmatlar</a>
+    <a href="#process">Jarayon</a>
+    <a href="#stats">Natijalar</a>
+    <a href="#pricing">Narxlar</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact" style="margin-top:16px; background: var(--blue); color:#fff; text-align:center;">Bog'lanish →</a>
+</nav>
+<div class="nav-overlay" id="navOverlay"></div>
+
+<!-- HERO -->
+<section id="home" class="grid-bg">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="container">
+        <div class="hero-grid">
+            <div>
+                <div class="hero-badge reveal">
+                    <span class="hero-badge-dot">✦</span>
+                    O'zbekistondagi #1 CRM & ERP Konsalting
+                </div>
+                <h1 class="reveal delay-1">
+                    Biznesingizni<br/>
+                    <span class="highlight">raqamli</span><br/>
+                    kelajakka olib<br/>chiqamiz
+                </h1>
+                <p class="hero-desc reveal delay-2">
+                    CRM va ERP tizimlarini joriy qilish, savdo bo'limlarini avtomatlashtirish, biznes jarayonlarini
+                    optimallashtirish bo'yicha professional konsalting.
+                </p>
+                <div class="hero-btns reveal delay-3">
+                    <a href="#contact" class="btn-primary">Bepul konsultatsiya <span>→</span></a>
+                    <a href="#services" class="btn-outline">Xizmatlar</a>
+                </div>
+                <div class="hero-stats reveal delay-4">
+                    <div class="hero-stat"><h4>120+</h4>
+                        <p>Loyiha</p></div>
+                    <div class="hero-stat"><h4>95%</h4>
+                        <p>Qoniqish</p></div>
+                    <div class="hero-stat"><h4>3×</h4>
+                        <p>Sotuv o'sishi</p></div>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal delay-2">
+                <div class="float-badge float-badge-1">
+                    <span class="badge-icon">📈</span>
+                    <div class="badge-text">
+                        <strong>Sotuv +240%</strong>
+                        <span>Oxirgi 30 kun</span>
+                    </div>
+                </div>
+                <div class="hero-dashboard">
+                    <div class="dashboard-header">
+                        <div class="dashboard-dots">
+                            <span class="dot-red"></span>
+                            <span class="dot-yellow"></span>
+                            <span class="dot-green"></span>
+                        </div>
+                        <span class="dashboard-title">Finora CRM · Dashboard</span>
+                        <span style="font-size:0.7rem; color:var(--text3);">Live ●</span>
+                    </div>
+                    <div class="dash-kpi-row">
+                        <div class="dash-kpi">
+                            <div class="dash-kpi-label">Yangi leads</div>
+                            <div class="dash-kpi-val blue">128</div>
+                        </div>
+                        <div class="dash-kpi">
+                            <div class="dash-kpi-label">Konversiya</div>
+                            <div class="dash-kpi-val up">42%</div>
+                        </div>
+                        <div class="dash-kpi">
+                            <div class="dash-kpi-label">Daromad</div>
+                            <div class="dash-kpi-val warm">$48K</div>
+                        </div>
+                    </div>
+                    <div class="dash-chart">
+                        <div class="dash-chart-label">Sotuv dinamikasi (7 kun)</div>
+                        <div class="dash-bars">
+                            <div class="dash-bar" style="height:40%"></div>
+                            <div class="dash-bar" style="height:55%"></div>
+                            <div class="dash-bar" style="height:38%"></div>
+                            <div class="dash-bar active" style="height:75%"></div>
+                            <div class="dash-bar" style="height:60%"></div>
+                            <div class="dash-bar active" style="height:88%"></div>
+                            <div class="dash-bar" style="height:72%"></div>
+                        </div>
+                    </div>
+                    <div class="dash-activity">
+                        <div class="dash-activity-item">
+                            <div class="dash-avatar" style="background:rgba(59,130,246,0.12);color:var(--blue)">AB</div>
+                            <div class="dash-info">
+                                <strong>Alisher Bekmurodov</strong>
+                                <span>CRM buyurtma yaratdi</span>
+                            </div>
+                            <span class="dash-status status-done">Bajarildi</span>
+                        </div>
+                        <div class="dash-activity-item">
+                            <div class="dash-avatar" style="background:rgba(245,158,11,0.12);color:#f59e0b">MH</div>
+                            <div class="dash-info">
+                                <strong>Malika Hasanova</strong>
+                                <span>Yangi shartnoma imzolandi</span>
+                            </div>
+                            <span class="dash-status status-prog">Jarayonda</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="float-badge float-badge-2">
+                    <span class="badge-icon">⚡</span>
+                    <div class="badge-text">
+                        <strong>Avto-report</strong>
+                        <span>Har kuni 08:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PARTNERS -->
+<section id="partners">
+    <div class="container">
+        <p class="partners-label">Hamkorlik qilgan kompaniyalar</p>
+    </div>
+    <div style="overflow:hidden">
+        <div class="partners-track">
+            <span class="partner-logo">Uzum Market</span>
+            <span class="partner-logo">Texnomart</span>
+            <span class="partner-logo">Hamkorbank</span>
+            <span class="partner-logo">Artel</span>
+            <span class="partner-logo">Makro</span>
+            <span class="partner-logo">Silk Road</span>
+            <span class="partner-logo">Najot Ta'lim</span>
+            <span class="partner-logo">Uzmobile</span>
+            <!-- duplicate for seamless loop -->
+            <span class="partner-logo">Uzum Market</span>
+            <span class="partner-logo">Texnomart</span>
+            <span class="partner-logo">Hamkorbank</span>
+            <span class="partner-logo">Artel</span>
+            <span class="partner-logo">Makro</span>
+            <span class="partner-logo">Silk Road</span>
+            <span class="partner-logo">Najot Ta'lim</span>
+            <span class="partner-logo">Uzmobile</span>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-visual reveal-left">
+                <div class="about-img-wrap">
+                    <div class="about-img-inner">
+                        <div class="abt-row">
+                            <div class="abt-icon"><i class="fa-solid fa-building"></i></div>
+                            <div class="abt-row-text">
+                                <strong>100+ ta muvaffaqiyatli joriy etish</strong>
+                                <span>O'zbekiston bo'ylab kompaniyalar</span>
+                            </div>
+                        </div>
+                        <div class="abt-row">
+                            <div class="abt-icon"><i class="fa-solid fa-handshake"></i></div>
+                            <div class="abt-row-text">
+                                <strong>Bitrix24, amoCRM, 1C hamkorlari</strong>
+                                <span>Sertifikatlangan joriy etuvchilar</span>
+                            </div>
+                        </div>
+                        <div class="abt-row">
+                            <div class="abt-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="abt-row-text">
+                                <strong>Jamoa treningi kiritilgan</strong>
+                                <span>Har bir loyiha uchun o'qitish</span>
+                            </div>
+                        </div>
+                        <div class="abt-row">
+                            <div class="abt-icon"><i class="fa-solid fa-shield"></i></div>
+                            <div class="abt-row-text">
+                                <strong>Post-launch qo'llab-quvvatlash</strong>
+                                <span>3-12 oy muddatda kafolat</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-exp-badge">
+                    <h4>5+</h4>
+                    <p>Yillik tajriba</p>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="section-label reveal">Biz haqimizda</span>
+                <h2 class="reveal delay-1">Biznesingizni zamonaviy tizimga olib chiqamiz</h2>
+                <p class="reveal delay-2">Finora System — kichik va o'rta bizneslar uchun CRM, ERP, va avtomatlashtirish
+                    yechimlarini kompleks taqdim etuvchi O'zbekistonning yetakchi konsalting kompaniyasi.</p>
+                <div class="about-features">
+                    <div class="abt-feature reveal delay-2">
+                        <span class="abt-feature-icon"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                        <div>
+                            <h4>Samarali boshqaruv</h4>
+                            <p>Barcha jarayonlarni yagona platforma orqali nazorat qilish imkoniyati.</p>
+                        </div>
+                    </div>
+                    <div class="abt-feature reveal delay-3">
+                        <span class="abt-feature-icon"><i class="fa-solid fa-gear"></i></span>
+                        <div>
+                            <h4>To'liq avtomatlashtirish</h4>
+                            <p>Qo'lda bajariladigan takroriy jarayonlarni avtomatik tizimlarga o'tkazamiz.</p>
+                        </div>
+                    </div>
+                    <div class="abt-feature reveal delay-4">
+                        <span class="abt-feature-icon"><i class="fa-solid fa-briefcase"></i></span>
+                        <div>
+                            <h4>Sotuvni rivojlantirish</h4>
+                            <p>Savdo bo'limini zamonaviy KPI va CRM asosida noldan tashkil qilamiz.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-label">Xizmatlarimiz</span>
+            <h2 class="section-title">Biznesingiz uchun kompleks yechimlar</h2>
+            <p class="section-desc">CRM va ERP'dan tortib to to'liq raqamlashtirish va konsaltinggacha.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card reveal delay-1">
+                <div class="service-icon"><i class="fa-solid fa-laptop"></i></div>
+                <h3>CRM Tizim</h3>
+                <p>Bitrix24, amoCRM, Salesforce va boshqa yetakchi CRM tizimlarini biznesingizga moslashtirib joriy
+                    qilamiz.</p>
+                <a href="#contact" class="service-arrow">Batafsil →</a>
+            </div>
+            <div class="service-card reveal delay-2">
+                <div class="service-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>Biznes Analitika</h3>
+                <p>Biznes jarayonlarini chuqur tahlil qilib, to'siq nuqtalarni aniqlash va samaradorlikni oshirish.</p>
+                <a href="#contact" class="service-arrow">Batafsil →</a>
+            </div>
+            <div class="service-card reveal delay-3">
+                <div class="service-icon"><i class="fa-solid fa-rocket"></i></div>
+                <h3>Sotuv Bo'limi</h3>
+                <p>Savdo bo'limini noldan tashkil qilish: KPI tizimi, skriptlar, reporting va motivatsiya tizimi.</p>
+                <a href="#contact" class="service-arrow">Batafsil →</a>
+            </div>
+            <div class="service-card reveal delay-1">
+                <div class="service-icon"><i class="fa-solid fa-link"></i></div>
+                <h3>ERP Integratsiya</h3>
+                <p>Ombor, moliya, HR va ishlab chiqarishni yagona ERP platformasida birlashtirish.</p>
+                <a href="#contact" class="service-arrow">Batafsil →</a>
+            </div>
+            <div class="service-card reveal delay-2">
+                <div class="service-icon"><i class="fa-solid fa-mobile"></i></div>
+                <h3>Raqamlashtirish</h3>
+                <p>Offline biznesni zamonaviy raqamli boshqaruvga, bulutli tizimlarga o'tkazish.</p>
+                <a href="#contact" class="service-arrow">Batafsil →</a>
+            </div>
+            <div class="service-card reveal delay-3">
+                <div class="service-icon"><i class="fa-solid fa-handshake"></i></div>
+                <h3>Konsalting</h3>
+                <p>Biznes strategiyasi, operatsion yechimlar va tizimli o'sish bo'yicha ekspert maslahatlar.</p>
+                <a href="#contact" class="service-arrow">Batafsil →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-label">Jarayonimiz</span>
+            <h2 class="section-title">4 qadamda natijaga erishamiz</h2>
+            <p class="section-desc">Har bir loyiha aniq metodologiya asosida amalga oshiriladi.</p>
+        </div>
+        <div class="process-steps">
+            <div class="process-step reveal delay-1">
+                <div class="process-num">01</div>
+                <h4>Tahlil</h4>
+                <p>Biznesingizni chuqur o'rganib, muammolar va imkoniyatlarni aniqlaymiz.</p>
+            </div>
+            <div class="process-step reveal delay-2">
+                <div class="process-num">02</div>
+                <h4>Strategiya</h4>
+                <p>Maqsadlarga moslashtirilgan individual yechim va yo'l xaritasini ishlab chiqamiz.</p>
+            </div>
+            <div class="process-step reveal delay-3">
+                <div class="process-num">03</div>
+                <h4>Joriy qilish</h4>
+                <p>Tizimni sozlab, jamoangizni o'qitib, ishga tushuramiz.</p>
+            </div>
+            <div class="process-step reveal delay-4">
+                <div class="process-num">04</div>
+                <h4>Qo'llab-quvvatlash</h4>
+                <p>Loyiha tugagandan so'ng monitoring va texnik yordam ko'rsatamiz.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item reveal delay-1">
+                <div class="stat-num">120+</div>
+                <div class="stat-label">Muvaffaqiyatli loyiha</div>
+            </div>
+            <div class="stat-item reveal delay-2">
+                <div class="stat-num">95%</div>
+                <div class="stat-label">Mijozlar qoniqishi</div>
+            </div>
+            <div class="stat-item reveal delay-3">
+                <div class="stat-num">3×</div>
+                <div class="stat-label">O'rtacha sotuv o'sishi</div>
+            </div>
+            <div class="stat-item reveal delay-4">
+                <div class="stat-num">24/7</div>
+                <div class="stat-label">Texnik yordam</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-label">Narxlar</span>
+            <h2 class="section-title">Biznes hajmingizga mos paket</h2>
+            <p class="section-desc">Barcha paketlarga onboarding, o'qitish va texnik qo'llab-quvvatlash kiritilgan.</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card reveal delay-1">
+                <div class="plan-name">Start</div>
+                <div class="plan-price">
+                    <span class="plan-price-cur">$</span>
+                    <span class="plan-price-num">299</span>
+                </div>
+                <p class="plan-desc">Kichik biznes uchun — CRM sozlash va savdo jarayonini tartibga solish.</p>
+                <ul class="plan-features">
+                    <li>CRM tizim sozlash</li>
+                    <li>Savdo tahlili va hisobotlar</li>
+                    <li>1 oylik qo'llab-quvvatlash</li>
+                    <li>Jamoa o'qitish (2 soat)</li>
+                </ul>
+                <a href="#contact" class="btn-plan btn-plan-outline">Boshlash</a>
+            </div>
+            <div class="pricing-card featured reveal delay-2">
+                <div class="pricing-badge">Eng mashhur</div>
+                <div class="plan-name">Business</div>
+                <div class="plan-price">
+                    <span class="plan-price-cur">$</span>
+                    <span class="plan-price-num">799</span>
+                </div>
+                <p class="plan-desc">O'rta biznes uchun — CRM + ERP integratsiyasi va to'liq avtomatlashtirish.</p>
+                <ul class="plan-features">
+                    <li>CRM + ERP integratsiya</li>
+                    <li>KPI tizimi joriy qilish</li>
+                    <li>Jarayonlarni avtomatlashtirish</li>
+                    <li>3 oylik support</li>
+                    <li>Haftalik hisobotlar</li>
+                </ul>
+                <a href="#contact" class="btn-plan btn-plan-solid">Tanlash</a>
+            </div>
+            <div class="pricing-card reveal delay-3">
+                <div class="plan-name">Enterprise</div>
+                <div class="plan-price">
+                    <span class="plan-price-num" style="font-size:2.4rem">Custom</span>
+                </div>
+                <p class="plan-desc">Yirik kompaniyalar uchun — individual tizim va korporativ integratsiya.</p>
+                <ul class="plan-features">
+                    <li>Individual tizim yaratish</li>
+                    <li>Korporativ integratsiya</li>
+                    <li>Premium 24/7 support</li>
+                    <li>To'liq konsultatsiya</li>
+                    <li>SLA kafolati</li>
+                </ul>
+                <a href="#contact" class="btn-plan btn-plan-outline">Bog'lanish</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TEAM -->
+<section id="team">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-label">Jamoamiz</span>
+            <h2 class="section-title">Natijalarni ta'minlovchi ekspertlar</h2>
+            <p class="section-desc">Biznesingizni tizimlashtirish va raqamli kelajakka olib chiqish uchun birlashgan
+                soha mutaxassislari.</p>
+        </div>
+        <div class="team-grid">
+
+            <!-- Jamoa a'zosi 1 -->
+            <div class="team-card reveal delay-1">
+                <div class="team-avatar-wrap">
+                    <div class="team-avatar" style="background: rgba(59, 130, 246, 0.12); color: var(--blue)">
+                        <img src="https://i.pinimg.com/736x/32/72/fd/3272fdbde5f3f2a613b4bfa3bc3f9135.jpg" alt="">
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h3>Alisher Karimov</h3>
+                    <p class="team-role">Asoschisi & Bosh Konsultant</p>
+                    <div class="team-socials">
+                        <a href="#" class="team-social-btn" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#" class="team-social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jamoa a'zosi 2 -->
+            <div class="team-card reveal delay-2">
+                <div class="team-avatar-wrap">
+                    <div class="team-avatar" style="background: rgba(59, 130, 246, 0.12); color: var(--blue)">
+                        <img src="https://i.pinimg.com/736x/32/72/fd/3272fdbde5f3f2a613b4bfa3bc3f9135.jpg" alt="">
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h3>Muhammadali Rayimjonov</h3>
+                    <p class="team-role">Tizimli Arxitektor & UI/UX Eksperti</p>
+                    <div class="team-socials">
+                        <a href="#" class="team-social-btn" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#" class="team-social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jamoa a'zosi 3 -->
+            <div class="team-card reveal delay-3">
+                <div class="team-avatar-wrap">
+                    <div class="team-avatar" style="background: rgba(34, 197, 94, 0.12); color: #22c55e">
+                        <img src="https://i.pinimg.com/736x/32/72/fd/3272fdbde5f3f2a613b4bfa3bc3f9135.jpg" alt="">
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h3>Sardor Hoshimov</h3>
+                    <p class="team-role">Sotuv Tizimlari bo'yicha Ekspert</p>
+                    <div class="team-socials">
+                        <a href="#" class="team-social-btn" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#" class="team-social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jamoa a'zosi 4 -->
+            <div class="team-card reveal delay-4">
+                <div class="team-avatar-wrap">
+                    <div class="team-avatar" style="background: rgba(168, 85, 247, 0.12); color: #a855f7">
+                        <img src="https://i.pinimg.com/736x/32/72/fd/3272fdbde5f3f2a613b4bfa3bc3f9135.jpg" alt="">
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h3>Dilnoza Nazirova</h3>
+                    <p class="team-role">Onboarding & Trening Rahbari</p>
+                    <div class="team-socials">
+                        <a href="#" class="team-social-btn" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#" class="team-social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-label">Mijozlar fikri</span>
+            <h2 class="section-title">Natijalar o'z-o'zidan gapiradi</h2>
+            <p class="section-desc">Finora orqali bizneslarini o'zgartirgan mijozlarimiz.</p>
+        </div>
+        <div class="testi-grid">
+            <div class="testi-card reveal delay-1">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-text">"CRM joriy qilingandan keyin sotuv bo'limining samaradorligi 3 barobarga oshdi.
+                    Menejerlar endi hech bir lead'ni yo'qotmaydi."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar" style="background:rgba(59,130,246,0.12);color:var(--blue)">AB</div>
+                    <div class="testi-name">
+                        <strong>Alisher Baxtiyorov</strong>
+                        <span>CEO, TechnoPlus — Toshkent</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card reveal delay-2">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-text">"ERP tizimi orqali omborimiz va moliyamizni bitta joydan boshqara boshladik.
+                    Xatolar 80% kamaydi, vaqt esa ikki baravar bo'shadi."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar" style="background:rgba(245,158,11,0.12);color:#f59e0b">ZN</div>
+                    <div class="testi-name">
+                        <strong>Zulfiya Nazarova</strong>
+                        <span>Operatsion direktor, MegaStore</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card reveal delay-3">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-text">"Finora jamoasi juda professional. Tizimni o'rnatib qolmay, jamoamizni to'liq
+                    o'qitishdi. Post-launch qo'llab-quvvatlash ajoyib."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar" style="background:rgba(34,197,94,0.12);color:#22c55e">JR</div>
+                    <div class="testi-name">
+                        <strong>Jasur Rahimov</strong>
+                        <span>Founder, LogiLine — O'zbekiston</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-label">FAQ</span>
+            <h2 class="section-title">Ko'p so'raladigan savollar</h2>
+            <p class="section-desc">Javob topa olmagan savolingiz bo'lsa, bizga yozing.</p>
+        </div>
+        <div class="faq-wrap">
+            <div class="faq-item reveal">
+                <div class="faq-q">CRM tizimi biznesga qanday foyda beradi? <span class="faq-icon">+</span></div>
+                <div class="faq-a">CRM tizimi mijozlar bilan ishlashni tartibga soladi, sotuvni kuzatadi, lead'lar
+                    yo'qolishining oldini oladi va jamoa samaradorligini sezilarli darajada oshiradi. O'rtacha 6 oy
+                    ichida sotuv 40-150% o'sadi.
+                </div>
+            </div>
+            <div class="faq-item reveal delay-1">
+                <div class="faq-q">ERP tizimi kimlar uchun kerak? <span class="faq-icon">+</span></div>
+                <div class="faq-a">Ombor, moliya, HR va ishlab chiqarish jarayonlari mavjud, 10+ xodimi bor bizneslar
+                    uchun juda muhim. ERP barcha bo'limlarni bitta platformada birlashtiradi va real-time ko'rsatkichlar
+                    beradi.
+                </div>
+            </div>
+            <div class="faq-item reveal delay-2">
+                <div class="faq-q">Joriy qilish qancha vaqt oladi? <span class="faq-icon">+</span></div>
+                <div class="faq-a">Loyiha hajmiga qarab farq qiladi: Start paketi — 1-2 hafta, Business paketi — 4-8
+                    hafta, Enterprise — 2-4 oy. Har bir bosqich aniq jadval bilan boriladi va siz doim jarayondan
+                    xabardor bo'lasiz.
+                </div>
+            </div>
+            <div class="faq-item reveal delay-3">
+                <div class="faq-q">Qaysi CRM/ERP tizimlar bilan ishlaymiz? <span class="faq-icon">+</span></div>
+                <div class="faq-a">Bitrix24, amoCRM, 1C, Microsoft Dynamics, Odoo, HubSpot va boshqalar bilan ishlymiz.
+                    Biznesingizga eng mos tizimni tanlab, individual sozlab beramiz.
+                </div>
+            </div>
+            <div class="faq-item reveal delay-4">
+                <div class="faq-q">Loyiha tugagandan keyin qo'llab-quvvatlash bormi? <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-a">Ha, har bir paketga post-launch qo'llab-quvvatlash kiritilgan. Start — 1 oy, Business
+                    — 3 oy, Enterprise — 12 oy. Savollar, xatolar va yangi xususiyatlar uchun 24/7 support mavjud.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- CONTACT -->
+<section id="contact">
+    <div class="container">
+        <div class="contact-grid">
+
+            <div class="contact-info reveal-left">
+                <span class="section-label">Bog'lanish</span>
+                <h2>Bepul konsultatsiya oling</h2>
+
+                <p>
+                    Biznesingizni ko'rib chiqamiz va sizga mos yechimni taklif qilamiz.
+                    Birinchi konsultatsiya — bepul.
+                </p>
+            </div>
+
+            <div class="reveal-right">
+
+                <form class="contact-form"
+                      method="POST"
+                      action=""
+                      id="contactForm">
+
+                    {% csrf_token %}
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="cname">Ismingiz</label>
+
+                            <input
+                                type="text"
+                                id="cname"
+                                name="name"
+                                placeholder="Alisher Karimov"
+                                required
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cphone">Telefon</label>
+
+                            <input
+                                type="tel"
+                                id="cphone"
+                                name="phone"
+                                placeholder="+998 90 000 00 00"
+                            />
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cemail">Email</label>
+
+                        <input
+                            type="email"
+                            id="cemail"
+                            name="email"
+                            placeholder="siz@kompaniya.uz"
+                            required
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cservice">Qaysi xizmat qiziqtiradi?</label>
+
+                        <select id="cservice" name="service">
+                            <option value="">Tanlang...</option>
+                            <option>CRM Tizim</option>
+                            <option>ERP Integratsiya</option>
+                            <option>Sotuv Bo'limi</option>
+                            <option>Biznes Analitika</option>
+                            <option>Raqamlashtirish</option>
+                            <option>Konsalting</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cmsg">Xabaringiz</label>
+
+                        <textarea
+                            id="cmsg"
+                            name="message"
+                            placeholder="Biznesingiz haqida qisqacha aytib bering..."
+                        ></textarea>
+                    </div>
+
+                    <button type="submit"
+                            class="btn-primary"
+                            style="border:none;cursor:pointer;width:100%;justify-content:center;font-size:1rem;">
+
+                        Yuborish →
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>Finora<span style="color:var(--blue)">.</span></h3>
+                <p>CRM va ERP tizimlarini o'rnatish, biznes jarayonlarini avtomatlashtirish bo'yicha O'zbekistondagi
+                    yetakchi konsalting kompaniyasi.</p>
+                <div class="footer-socials">
+                    <a href="#" class="social-btn" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Xizmatlar</h4>
+                <ul>
+                    <li><a href="#services">CRM Tizim</a></li>
+                    <li><a href="#services">ERP Integratsiya</a></li>
+                    <li><a href="#services">Sotuv Bo'limi</a></li>
+                    <li><a href="#services">Biznes Analitika</a></li>
+                    <li><a href="#services">Raqamlashtirish</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Kompaniya</h4>
+                <ul>
+                    <li><a href="#about">Biz haqimizda</a></li>
+                    <li><a href="#process">Jarayon</a></li>
+                    <li><a href="#testimonials">Mijozlar</a></li>
+                    <li><a href="#pricing">Narxlar</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Aloqa</h4>
+                <ul>
+                    <li><a href="tel:+998901234567">+998 90 123 45 67</a></li>
+                    <li><a href="mailto:info@finora.uz">info@finora.uz</a></li>
+                    <li><a href="#">Toshkent, O'zbekiston</a></li>
+                    <li><a href="#">@finora_system</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Finora System. Barcha huquqlar himoyalangan.</p>
+            <p>Syne & DM Sans · Toshkent, O'zbekiston</p>
+        </div>
+    </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button id="backToTop" aria-label="Yuqoriga">↑</button>
+<script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
